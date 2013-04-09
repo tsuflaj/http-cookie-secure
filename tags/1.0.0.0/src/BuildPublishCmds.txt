@@ -1,0 +1,5 @@
+**FILE FOR REFERENCE ONLY**
+This file contains handy command line items for convenience of build / publish. Commands ARE NOT required for source compilation.
+
+nuget pack Rsft.HttpCookieSecure.csproj -Sym -Build -Prop Configuration=Release
+nuget push Rsft.HttpCookieSecure.1.0.0.0.nupkg
