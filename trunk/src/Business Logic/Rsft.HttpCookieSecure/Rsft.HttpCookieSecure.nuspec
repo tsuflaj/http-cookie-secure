@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://code.google.com/p/http-cookie-secure/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <summary>IIS server side software for .NET framework 4.0. Provides encryption and decryption of HTTP cookies together with tamper protection.</summary>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <language>en-US</language>
+    <tags>rolosoft IIS cookie</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Web" targetFramework="net40" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="bin\$configuration$\$id$.dll" target="lib\net40" />
+    <file src="bin\$configuration$\$id$.pdb" target="lib\net40" />
+    <file src="**\*.cs" target="src" />
+  </files>
+</package>
