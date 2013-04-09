@@ -84,7 +84,7 @@ namespace Rsft.HttpCookieSecure
         /// HttpCookie standardCookie = Request.Cookies["MyCookieName"];
         ///     if(standardCookie!=null)
         ///     {
-        ///     HttpCookie decodedCookie = Rolosoft.WebControls.CookieSecure.Decode(standardCookie,System.Web.Security.CookieProtection.Encryption);
+        ///     HttpCookie decodedCookie = CookieSecure.Decode(standardCookie,System.Web.Security.CookieProtection.Encryption);
         ///     //...Go on to process decoded cookie
         ///     }
         /// </code>
